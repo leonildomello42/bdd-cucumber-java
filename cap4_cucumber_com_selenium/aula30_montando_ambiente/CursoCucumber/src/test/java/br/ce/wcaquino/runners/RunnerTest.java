@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		snippets = SnippetType.CAMELCASE,
 		dryRun = false, //validar se o mapeamento esta correto
 		strict = false) //validar se tiver passo faltando quebra os testes
-public class Runner {
+public class RunnerTest {
 	
 	//"~@ignore" - ignora
 	// {"@tipo2, @tipo1"} -tipo1 ou tipo2
