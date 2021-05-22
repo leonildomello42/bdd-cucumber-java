@@ -89,4 +89,32 @@ public class AprenderCucumber {
 		Assert.assertEquals(data, dataFormatada);
 	}
 	
+	/**
+	 * Desafio regex
+	 */
+	
+	@Dado("^que o ticket( especial)? é (A.\\d{3})$")
+	public void queOTicketÉAF(String tipo, String arg1) {
+	}
+
+	@Dado("^que o valor da passagem é R\\$ (.*)$")
+	public void queOValorDaPassagemÉR$(Double passagem) {
+	}
+
+	@Dado("^que o nome do passageiro é \"(.{5,20})\"$")
+	public void queONomeDoPassageiroÉ(String string) {
+	}
+
+	@Dado("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+	public void queOTelefoneDoPassageiroÉ(String telefone) {
+	}
+
+	@Quando("criar os steps")
+	public void criarOsSteps() {
+	}
+
+	@Então("o teste vai funcionar")
+	public void oTesteVaiFuncionar() {
+	}
+	
 }
